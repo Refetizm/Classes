@@ -44,7 +44,7 @@ bool CreditsScene::init()
 	creditsBackground->setPosition(Point(0, 0));
 	this->addChild(creditsBackground, 1);
 
-	auto creditsAction = RepeatForever::create(MoveBy::create(1, Point(0, 30)));
+	auto creditsAction = RepeatForever::create(MoveBy::create(1, Point(0, 90)));
 	creditsBackground->runAction(creditsAction);
 	
 

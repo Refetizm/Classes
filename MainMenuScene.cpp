@@ -96,5 +96,5 @@ void MainMenuScene::GoToExit(cocos2d::Ref* psender)
 
 void MainMenuScene::GoToGitHubScene(cocos2d::Ref* psender)
 {
-	Application::getInstance()->openURL("www.google.com.tr");
+	Application::getInstance()->openURL("https://github.com/Refetizm/Fly-To-Masomo/");
 }
